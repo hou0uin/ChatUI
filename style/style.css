@@ -1,0 +1,225 @@
+QWidget#UiMain{
+    border-radius: 17px; 
+}
+
+/* QWidget#UiMain下QWidget且不传递 */
+/* QWidget#UiMain .QWidget{
+    border-left:1px solid rgb(214,214,214);
+} */
+
+/* 边框线条 */
+QWidget#widget_mid{
+    border-left:1px solid rgb(214,214,214);
+    border-right:1px solid rgb(214,214,214);
+}
+
+QWidget#widget_mid_1{
+    border-bottom:1px solid rgb(214,214,214);
+}
+
+QWidget#widget_right_top{
+    border-bottom:1px solid rgb(214,214,214);
+}
+
+QWidget#widget_left {
+    background-color: rgb(46, 46, 46);
+}
+QWidget#widget_mid {
+    background-color: rgb(245,245,245);
+}
+QWidget#widget_right {
+    background-color: rgb(245,245,245);
+}
+
+QWidget#widget_left QPushButton{
+    /* 角弧度 */
+    border-radius: 17px; 
+    /* 设置背景透明 rgba0000 */
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+QWidget#widget_left QPushButton:hover{
+    /* 改变透明度 */
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+QPushButton#pushButton_1{
+    background-image: url(:/style/style/img/btn_1_1.png);
+}
+/* 
+QPushButton#pushButton_1:pressed {
+    background-image: url(:/style/style/img/btn_1_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+} */
+QPushButton#pushButton_2{
+    background-image: url(:/style/style/img/btn_2_1.png);
+}
+
+QPushButton#pushButton_3{
+    background-image: url(:/style/style/img/btn_3_1.png);
+}
+
+QPushButton#pushButton_4{
+    background-image: url(:/style/style/img/btn_4_1.png);
+}
+
+QPushButton#pushButton_5{
+    background-image: url(:/style/style/img/btn_5_1.png);
+}
+
+QPushButton#pushButton_6{
+    background-image: url(:/style/style/img/btn_6_1.png);
+}
+
+QPushButton#pushButton_7{
+    background-image: url(:/style/style/img/btn_7_1.png);
+}
+
+QPushButton#pushButton_8{
+    background-image: url(:/style/style/img/btn_8_1.png);
+}
+
+QWidget#widget_mid_2 QPushButton{
+    border: 0px;
+}
+
+/* QWidget#widget_mid_2 QPushButton:hover{
+    background-color:rgba(0, 0, 0, 0);
+} */
+
+QPushButton#pushButton_lxr_1{
+    background-image: url(:/style/style/img/lxr_1.png);
+}
+
+QPushButton#pushButton_add{
+    /* 角弧度 */
+    border-radius: 5px; 
+    font-size: 28px;
+    /* 设置背景透明 rgba0000 */
+    background-color: rgb(226, 226, 226);
+}
+QPushButton#pushButton_add:hover{
+    /* 改变透明度 */
+    background-color:rgb(209, 209, 209);
+}
+
+QWidget#widget_right_top QLabel{
+    font: 14pt 'Microsoft YaHei UI';
+}
+
+QLineEdit#lineEdit_search {
+    /* 设置边框样式和颜色 */
+    border: 0px solid #007ACC; 
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333333;
+}
+
+QWidget#widget_search{
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+}
+
+QWidget#widget_right_top QPushButton{
+    /* 角弧度 */
+    border-radius: 0px; 
+    font-size: 15px;
+    /* 设置背景透明 rgba0000 */
+    background-color: rgba(0, 0, 0, 0);
+}
+
+QWidget#widget_right_top QPushButton:hover{
+    /* 角弧度 */
+    /* 设置背景透明 rgba0000 */
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+QWidget#widget_right_top QPushButton#pushButton_close:hover{
+    /* 字体颜色 */
+    color: #ffffff;
+    /* 设置背景透明 rgba0000 */
+    background-color: rgb(251, 115, 115);
+}
+
+QSplitter#splitter{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+QTextEdit#textEdit{
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+QWidget#widget_text_tool QPushButton{
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+QPushButton#pushButton_bq{
+    background-image: url(:/style/style/img/btn_bq.png);
+}
+QPushButton#pushButton_wj{
+    background-image: url(:/style/style/img/btn_wj.png);
+}
+QPushButton#pushButton_jt{
+    background-image: url(:/style/style/img/btn_jt.png);
+}
+QPushButton#pushButton_ltjl{
+    background-image: url(:/style/style/img/btn_ltjl.png);
+}
+QPushButton#pushButton_yylt{
+    background-image: url(:/style/style/img/btn_yylt.png);
+}
+
+QPushButton#pushButton_send{
+    border-radius: 5px; 
+    background-color: rgb(233, 233, 233);
+    color: rgb(7, 193, 96);
+    font: 10pt 'Microsoft YaHei UI';
+}
+
+/* QTextEdit#textEdit{
+    font: 14pt 'Microsoft YaHei UI';
+} */
+
+/*  */
+ChatForm QLabel#title{
+    font: 10pt 'Microsoft YaHei UI';
+}
+
+ChatForm QLabel#text{
+    font: 9pt 'Microsoft YaHei UI';
+    color: rgba(0, 0, 0, 0.2);
+}
+
+ChatForm QLabel#time{
+    font: 9pt 'Microsoft YaHei UI';
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/*  */
+QListWidget#chatList{
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    outline:0px
+}
+
+QListWidget#chatList::item{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+QListWidget#chatList::item:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+QListWidget#chatList::item:selected{
+    background-color: rgba(0, 0, 0, 0.14);
+}

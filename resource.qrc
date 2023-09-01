@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/chat_1.png</file>
+        <file>img/chat_def.png</file>
+        <file>img/tx.jpg</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>style/style.css</file>
+        <file>style/img/btn_1_1.png</file>
+        <file>style/img/btn_1_2.png</file>
+        <file>style/img/btn_2_1.png</file>
+        <file>style/img/btn_3_1.png</file>
+        <file>style/img/btn_4_1.png</file>
+        <file>style/img/btn_5_1.png</file>
+        <file>style/img/btn_6_1.png</file>
+        <file>style/img/btn_7_1.png</file>
+        <file>style/img/btn_8_1.png</file>
+        <file>style/img/btn_bq.png</file>
+        <file>style/img/btn_jt.png</file>
+        <file>style/img/btn_ltjl.png</file>
+        <file>style/img/btn_wj.png</file>
+        <file>style/img/btn_yylt.png</file>
+    </qresource>
+</RCC>
